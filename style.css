@@ -1,0 +1,185 @@
+body, html { 
+	padding: 0; 
+	margin: 0;
+}
+:root {
+	--color-basic: #999999; 
+	--bgcolor-basic: #999999; 
+	--text-color: white;
+	--img-radius: 5px;
+}
+.wrap {
+	min-width: 320px;
+}
+h1, h4 , p {
+	color: var(--color-basic);
+}
+h1 {
+	text-align: center;
+}
+#chapter-one {
+	width: 23%;
+	float: left;
+	margin: 1%;
+	padding: 2px;
+	padding-left: 2%;
+}
+img {
+	width: 140px;
+	border: 2px solid grey;
+	border-radius: var(--img-radius);
+	box-sizing: border-box;
+}
+.fun  img{
+	width: 180px;
+	margin: 2px;
+	border: 2px solid grey;
+	box-sizing: border-box;
+	border-radius: var(--img-radius);
+}
+.fon  img {
+	border: 2px solid grey;
+	box-sizing: border-box;
+	border-radius: var(--img-radius);
+}
+#chapter-two {
+	width: 23%;
+	float: left;
+	margin: 1%;
+	padding: 2px;
+}
+#chapter-tree {
+	width: 23%;
+	float: left;
+	margin: 1%;
+	padding: 2px;
+}
+#chapter-four {
+	padding: 1%;
+}
+#block { 
+	clear: both;
+}
+nav {
+	text-align: center;
+}
+nav ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	list-style-type: none;
+}
+nav li + li::before {
+content: '/';  
+}
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--color-basic);
+}
+nav ul li a {
+	padding: 1px 7px;
+}
+#fun ul li {
+	display: inline;
+}
+#fun a {
+	text-decoration: none;
+	color: var(--color-basic);
+}
+#fun {
+	margin-left: 5px;
+}
+#chapter-one-one {
+	float: left;
+	width: 22%;
+	padding: 2%;
+	margin-left: 1%;
+}
+#chapter-two-two {
+	float: left;
+	width: 22%;
+	padding: 2%;
+}
+#chapter-tree-tree {
+	float: left;
+	width: 22%;
+	height: 15%;
+	padding: 2%;
+}
+#chapter-four-four {
+	padding: 2%;
+	height: 15%
+}
+#chapter-five {
+	float: left;
+	width: 23%;
+	padding: 2%;
+	padding-left: 2%;
+}
+#chapter-six {
+	float: left;
+	width: 23%;
+	padding: 2%;
+}
+#chapter-seven {
+	float: left;
+	width: 23%;
+	padding: 2%;
+}
+#chapter-eight {
+	padding: 2%;
+	height: 15%;
+}
+#chapter-eight  img{
+	height: 170px;
+}
+footer { 
+	background: var(--bgcolor-basic);
+	color: var(--text-color);
+	padding-bottom: 1%;
+	padding: 1%;
+}
+#left-block {
+	width: 50%;
+	float: left;
+	background: var(--bgcolor-basic);
+	color: white;
+}
+#menu-footer-one ul li  {
+	display: inline;
+	padding-top: -7px;
+}
+#menu-footer-one li + li::before {
+content: ' | '; 
+}
+#menu-footer-one a {
+	font-weight: bold;
+	font-size: small;
+	color: var(--text-color);
+	text-decoration: none;
+	background: var(--bgcolor-basic);
+}
+#menu-footer-two ul li {
+	display: inline;
+}
+#menu-footer-two li + li::before {
+content: ' | '; 
+}
+#menu-footer-two a {
+	font-weight: bold;
+	font-size: small;
+	color: var(--text-color);
+	text-decoration: none;
+	background: var(--bgcolor-basic);
+}
+#right-block  {
+	height: 40%;
+}
+#my-form {
+	float: left;
+}
+.small-font {
+	font-size: small;
+	color: var(--text-color);
+}
