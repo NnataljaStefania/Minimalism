@@ -70,7 +70,7 @@ nav ul li {
 	list-style-type: none;
 }
 nav li + li::before {
-content: '/';  
+	content: '/';  
 }
 nav a {
 	text-decoration: none;
@@ -151,7 +151,7 @@ footer {
 	padding-top: -7px;
 }
 #menu-footer-one li + li::before {
-content: ' | '; 
+	content: ' | '; 
 }
 #menu-footer-one a {
 	font-weight: bold;
@@ -164,7 +164,7 @@ content: ' | ';
 	display: inline;
 }
 #menu-footer-two li + li::before {
-content: ' | '; 
+	content: ' | '; 
 }
 #menu-footer-two a {
 	font-weight: bold;
