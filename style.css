@@ -9,7 +9,7 @@ body, html {
 	--img-radius: 5px;
 }
 .wrap {
-	min-width: 320px;
+	min-width: 600px;
 }
 h1, h4 , p {
 	color: var(--color-basic);
