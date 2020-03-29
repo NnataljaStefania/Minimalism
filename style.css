@@ -80,15 +80,29 @@ nav a {
 nav ul li a {
 	padding: 1px 7px;
 }
-#fun ul li {
-	display: inline;
+menu {
+	text-align: center;
+	padding-left: 0;
 }
-#fun a {
+menu ul {
+	padding-left: 0;
+	}
+
+menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	list-style-type: none;
+}
+menu li + li::before {
+content: '/';  
+}
+menu a {
 	text-decoration: none;
 	color: var(--color-basic);
 }
-#fun {
-	margin-left: 5px;
+menu ul li a {
+	padding: 1px 7px;
 }
 #chapter-one-one {
 	float: left;
