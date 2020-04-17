@@ -63,6 +63,9 @@ img {
 nav {
 	text-align: center;
 }
+nav ul {
+	padding-left: 0;
+}
 nav ul li {
 	padding: 0;
 	margin: 0;
@@ -78,30 +81,6 @@ nav a {
 	color: var(--color-basic);
 }
 nav ul li a {
-	padding: 1px 7px;
-}
-menu {
-	text-align: center;
-	padding-left: 0;
-}
-menu ul {
-	padding-left: 0;
-	}
-
-menu ul li {
-	padding: 0;
-	margin: 0;
-	display: inline-block;
-	list-style-type: none;
-}
-menu li + li::before {
-content: '/';  
-}
-menu a {
-	text-decoration: none;
-	color: var(--color-basic);
-}
-menu ul li a {
 	padding: 1px 7px;
 }
 #chapter-one-one {
@@ -160,27 +139,22 @@ footer {
 	background: var(--bgcolor-basic);
 	color: white;
 }
-#menu-footer-one ul li  {
+.menu ul li  {
 	display: inline;
 	padding-top: -7px;
 }
-#menu-footer-one li + li::before {
+.menu li + li::before {
 	content: ' | '; 
 }
-#menu-footer-one a {
+#footer-one a {
 	font-weight: bold;
 	font-size: small;
 	color: var(--text-color);
 	text-decoration: none;
 	background: var(--bgcolor-basic);
 }
-#menu-footer-two ul li {
-	display: inline;
-}
-#menu-footer-two li + li::before {
-	content: ' | '; 
-}
-#menu-footer-two a {
+
+#footer-two a {
 	font-weight: bold;
 	font-size: small;
 	color: var(--text-color);
