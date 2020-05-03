@@ -8,18 +8,15 @@ onload = () => {
 			alert('Please, fill the form.');
 		}	event.preventDefault();
 		
-		let regex = /^\w{2,17}@\w+\.\w{2,4}$/;
+		let regex = /^\w{1,17}@\w+\.\w{2,4}$/;
 		let emailId = document.getElementById('emailId');
 			
 			if (!regex.test(emailId.value)) { 
-				
 				alert('Please, fill the email.');
 				
 			} else { 
-				
 				form.submit();
 				alert('Submitted.');
-				
 			}
 		
 		event.preventDefault();
