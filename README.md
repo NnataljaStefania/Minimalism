@@ -1,2 +1,2 @@
 # Minimalism
-Site is the style of minimalism
+The site is made in minimalist style
