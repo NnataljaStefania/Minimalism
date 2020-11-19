@@ -1,2 +1,2 @@
 # Minimalism
-The site is made in minimalist style
+This site is made in minimalist style
