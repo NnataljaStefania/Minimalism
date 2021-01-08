@@ -49,10 +49,10 @@ img {
 	padding: 2px;
 }
 #chapter-tree {
-	width: 23%;
 	float: left;
-	margin: 1%;
-	padding: 2px;
+	width: 22%;
+	height: 15%;
+	padding: 2%;
 }
 #chapter-four {
 	padding: 1%;
