@@ -1,0 +1,19 @@
+body {
+		 font-size: 30px;
+	}
+	#chapter-one, #chapter-two, #chapter-tree, #chapter-four  {
+		width: 90%;
+	}
+	#chapter-one, #chapter-two, #chapter-tree, #chapter-four  img {
+		text-align: center;
+	}
+	#chapter-one-one, #chapter-two-two, #chapter-tree-tree, 
+	#chapter-four-four, #chapter-five, #chapter-six, #chapter-seven, #chapter-eight {
+		width: 90%;
+	}
+	#chapter-one-one, #chapter-two-two, #chapter-tree-tree, 
+	#chapter-four-four, #chapter-five, #chapter-six, #chapter-seven, #chapter-eight {
+		text-align: center;
+	}
+	
+
